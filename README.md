@@ -1,60 +1,13 @@
-Lab Report: Introduction to Software Engineering (Git & GitHub)
+Lab Report: Introduction to Git and GitHub
 
- Introduction
+In this lab, we explored the fundamentals of Git as a Version Control System (VCS) and learned how to use GitHub as a collaborative platform for managing repositories. The session emphasized both the technical setup of Git and the practical workflow of creating, committing, branching, and merging code changes.
 
-Version control is a fundamental practice in software engineering, enabling teams to collaborate effectively, track changes, and maintain project integrity. Git, a distributed version control system, and GitHub, a cloud-based collaboration platform, are widely used in both academia and industry. This lab provided hands-on experience with Git and GitHub, focusing on repository creation, branching, collaboration, and conflict resolution.
+We began by understanding Git’s role as a distributed version control system. Git enables developers to track changes in source code, revert to earlier versions, and collaborate seamlessly across teams. GitHub extends these capabilities by providing a web-based interface with additional tools such as pull requests, issue tracking, and continuous integration/continuous delivery (CI/CD).
 
- Objectives
+The first practical step involved configuring Git with a username and email address, ensuring that all commits are properly attributed. We then created a local repository by initializing Git in a new directory and adding a simple README file. This file was staged, committed, and pushed to a newly created GitHub repository, establishing the connection between local and remote repositories.
 
-By the end of this lab, students were expected to:
+Next, we practiced branching and collaboration. A new branch was created to add content to the README file, which was then pushed to GitHub. Using GitHub’s interface, we opened a pull request to merge the branch into the main branch. This exercise highlighted the importance of pull requests as a structured way to propose, review, and integrate changes. After merging, we updated the local repository to reflect the latest changes from GitHub.
 
-• Configure Git with user credentials.
-• Create and manage repositories on GitHub.
-• Understand and apply branching and merging strategies.
-• Collaborate using pull requests and reviews.
-• Resolve merge conflicts effectively.
-• Reflect on the role of version control in software engineering practice.
+Finally, we simulated a merge conflict by editing the same file in different branches. Resolving the conflict required manually reconciling the differences in the README file, staging the corrected version, and committing the resolution. This exercise demonstrated how Git handles conflicts and reinforced the importance of clear communication and careful review in collaborative projects.
 
-
----
-
- Methodology
-
-The lab was conducted in sequential steps:
-
- Git Setup
- • Installed Git and configured username/email.
-• Verified installation with git --version.
-
-Repository Creation
-• Initialized a local repository using git init.
-• Created a remote repository on GitHub and linked it via git remote add origin.
-
- Branching and Commits• Created new branches (git branch feature-x).
-• Staged and committed changes (git add, git commit).
-• Pushed branches to GitHub (git push origin feature-x).
-
-Collaboration via Pull Requests
-• Opened pull requests on GitHub.
-• Reviewed and merged contributions.
-
- Conflict Resolution
-• Simulated conflicting edits.
-• Used Git’s merge tools to resolve conflicts.
-• Documented the resolution process.
-
- Results
-• Successfully configured Git and created repositories.
-• Demonstrated branching and merging workflows.
-• Collaborated through GitHub pull requests.
-• Resolved merge conflicts, gaining practical insight into teamwork challenges.
-
-Analysis
-The lab highlighted the importance of version control in collaborative environments. Conflict resolution illustrated how Git enforces accountability and transparency, ensuring that all changes are traceable. Branching strategies reinforced the value of modular development, allowing parallel work without disrupting the main project.
-
- Conclusion
-This lab provided foundational skills in Git and GitHub, essential for modern software engineering. Beyond technical commands, the exercise emphasized teamwork, communication, and structured collaboration. These practices are directly applicable to industry workflows, where version control underpins continuous integration, deployment, and long-term project sustainability.
-
-Reflection
-
-The most valuable lesson was learning to embrace conflicts as opportunities for clarity. Resolving merge conflicts required careful review and communication, mirroring real-world teamwork. This reinforced the idea that software engineering is not only about writing code but also about managing collaboration and ensuring project integrity.
+Overall, the lab provided a comprehensive introduction to Git and GitHub. By the end, we had gained hands-on experience in setting up repositories, committing changes, collaborating through branches and pull requests, and resolving conflicts. These skills form the foundation for effective teamwork in software development, ensuring that projects remain organized, traceable, and resilient to errors.
