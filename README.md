@@ -2,8 +2,15 @@ Lab Report: Introduction to Software Engineering (Git & GitHub)
 Introduction:
 Version control is a fundamental practice in software engineering, enabling teams to collaborate effectively, track changes, and maintain project integrity. Git, a distributed version control system, and GitHub, a cloud-based collaboration platform, are widely used in both academia and industry. This lab provided hands-on experience with Git and GitHub, focusing on repository creation, branching, collaboration, and conflict resolution.
 
+
+ Objectives 
+
+By the end of this lab, students were expected to:
+
+
 Objectives:
 We were expected to:-
+
 • Configure Git with user credentials.
 • Create and manage repositories on GitHub.
 • Understand and apply branching and merging strategies.
